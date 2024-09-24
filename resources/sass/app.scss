@@ -1,0 +1,64 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.td-home{
+    background: url('../../public/td-assets/common/td-home-background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    .card{
+        background: none;
+        padding: 20px;
+        border: 0;
+        width: 500px;
+        max-width: 90%;
+
+        .card-header{
+            border: 0;
+            background: none;
+        }
+
+        img{
+            width: 50%;
+        }
+
+        .card-body{
+            position: relative;
+
+            form{
+
+                input{
+                    border: 0;
+                    padding: 11px 10px;
+                }
+
+                input.btn{
+                    color: #ffffff;
+                    background: #294fb3;
+                    box-shadow: -1px 1px 5px 0px rgb(0 0 0 / 75%);
+                    -webkit-box-shadow: -1px 1px 5px 0px rgb(0 0 0 / 30%);
+                    -moz-box-shadow: -1px 1px 5px 0px rgba(214,211,211,0.75);
+                }
+
+                .remember-me{
+                    position: relative;
+
+                    label{
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+}
